@@ -1,0 +1,24 @@
+settings:
+  panel-title: "&8⚡ &b&lKELPMC ADMIN PANEL"
+  players-title: "&8👥 &b&lKELPMC ADMIN PANEL"
+  player-title: "&8⚡ &b&lKELPMC ADMIN PANEL &8» &f%player%"
+  ban-title: "&8🔨 &c&lKELPMC ADMIN PANEL &8» &cBAN PLAYER"
+  mute-title: "&8🔇 &e&lKELPMC ADMIN PANEL &8» &eMUTE PLAYER"
+  inventory-title: "&8🎒 &b&lKELPMC ADMIN PANEL &8» &f%player% INVENTORY"
+
+messages:
+  no-permission: "&cYou do not have permission."
+  player-not-found: "&cPlayer not found."
+  banned: "&c%player% was banned."
+  muted: "&e%player% was muted."
+  unmuted: "&a%player% was unmuted."
+  kicked: "&c%player% was kicked."
+  teleported: "&aTeleported to %player%."
+  spectating: "&aNow spectating %player%."
+  reloaded: "&aAdminPanel configuration reloaded."
+
+durations:
+  10-minutes: 600
+  1-hour: 3600
+  1-day: 86400
+  7-days: 604800

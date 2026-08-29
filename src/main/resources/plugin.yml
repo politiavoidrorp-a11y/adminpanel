@@ -1,0 +1,30 @@
+name: AdminPanel
+version: ${version}
+main: me.noxxll.adminpanel.AdminPanel
+api-version: '1.21'
+author: noxxll
+description: Modern Minecraft admin panel inspired by txAdmin.
+
+commands:
+  admin:
+    description: Opens the Admin Panel
+    usage: /admin
+    permission: adminpanel.use
+
+permissions:
+  adminpanel.use:
+    default: op
+  adminpanel.ban:
+    default: op
+  adminpanel.mute:
+    default: op
+  adminpanel.kick:
+    default: op
+  adminpanel.teleport:
+    default: op
+  adminpanel.spectate:
+    default: op
+  adminpanel.inventory:
+    default: op
+  adminpanel.reload:
+    default: op
